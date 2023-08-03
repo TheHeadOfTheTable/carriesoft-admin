@@ -1,0 +1,82 @@
+<section class="container d-flex flex-column">
+    <div class="row align-items-center justify-content-center g-0 min-vh-100">
+        <div class="col-lg-5 col-md-8 py-8 py-xl-0">
+            <!-- Card -->
+            <div class="card shadow">
+                <!-- Card body -->
+                <div class="card-body p-6">
+                    <div class="mb-4">
+                        <a href="https://geeksui.codescandy.com/geeks/index.html"><img style="width: 205px;"
+                                src="assets/images/logo/logo.png" class="mb-4" alt="logo"></a>
+                        <h1 class="mb-1 fw-bold">S'inscrire</h1>
+                        <span>Vous avez déjà un compte?
+                            <a style="cursor: pointer;" (click)="openUrl('login')" class="ms-1">Vous avez déjà un
+                                compte?</a></span>
+                    </div>
+                    <!-- Form -->
+                    <form>
+                        <!-- Username -->
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Nom d'utilisateur</label>
+                            <input type="text" id="username" class="form-control" name="username"
+                                placeholder="Nom d'utilisateur" required>
+                        </div>
+                        <!-- Email -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" id="email" class="form-control" name="email"
+                                placeholder="Adresse e-mail ici" required>
+                        </div>
+                        <!-- Password -->
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Mot de passe</label>
+                            <input type="password" id="password" class="form-control" name="password"
+                                placeholder="**************" required>
+                        </div>
+                        <!-- Checkbox -->
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="agreeCheck">
+                                <label class="form-check-label" for="agreeCheck"><span>
+                                        J'accepte les <a href="terms-condition-page.html">Conditions de
+                                            Service </a> et
+                                        <a href="terms-condition-page.html">Politique de
+                                            confidentialité.</a></span></label>
+                            </div>
+                        </div>
+                        <div>
+                            <!-- Button -->
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">
+                                    Créer un compte gratuitement
+                                </button>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <div class="mt-4 text-center">
+                            <!--Facebook-->
+                            <a style="margin-right: 5px;" href="https://www.facebook.com/simodercongo"
+                                class="btn-social btn-social-outline btn-facebook">
+                                <i class="bi bi-facebook fs-4"></i>
+                            </a>
+                            <!--Twitter-->
+                            <a style="margin-right: 5px;" href="https://twitter.com/SimoderTech/"
+                                class="btn-social btn-social-outline btn-twitter">
+                                <i class="bi bi-twitter fs-4"></i>
+                            </a>
+                            <!--LinkedIn-->
+                            <a style="margin-right: 5px;" href="https://www.linkedin.com/simoder_tech/"
+                                class="btn-social btn-social-outline btn-linkedin">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <!--GitHub-->
+                            <a style="margin-right: 5px;" href="#" class="btn-social btn-social-outline btn-github">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
